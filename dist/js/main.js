@@ -5,7 +5,7 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuImg = document.querySelector('.menu-image');
 
-const navItems = document.querySelectorAll('nav-item');
+const navItems = document.querySelectorAll('.nav-item');
 
 let showMenu = false;
 
@@ -37,3 +37,4 @@ function toggleMenu(){
 
     }
 }
+
