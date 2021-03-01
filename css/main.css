@@ -284,5 +284,8 @@ main {
     main .larger-heading {
       margin-top: 1rem;
       font-size: 5rem; }
+  .about-info {
+    grid-template-areas: "bioimage" "bio1" "bio2" "job1" "job2" "job3";
+    grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: 1fr; } }
